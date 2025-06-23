@@ -89,9 +89,9 @@ function initializeAppShortcuts() {
     const shortcuts = document.querySelectorAll('.app-icon');
     const appUrls = {
         whatsapp: 'https://web.whatsapp.com',
-        email: 'mailto:your.email@gmail.com',
-        github: 'https://github.com/yourusername',
-        discord: 'https://discord.com'
+        email: 'https://mail.google.com',
+        github: 'https://github.com/justdoit-63',
+        discord: 'https://discord.com/channels/@me'
     };
 
     shortcuts.forEach(icon => {
