@@ -1,3 +1,18 @@
+alert("HI! nigga! Welcome to Pixel Dashboard! \n\nThis is a simple dashboard that shows the current time, date, weather, and some shortcuts to your favorite apps.  \n\nHave fun!");
+// === COOKIE BANNER FUNCTIONALITY ===
+  function acceptCookies() {
+    localStorage.setItem('cookiesAccepted', 'true');
+    document.getElementById('cookie-banner').style.display = 'none';
+  }
+
+  window.onload = function() {
+    if (!localStorage.getItem('cookiesAccepted')) {
+      document.getElementById('cookie-banner').style.display = 'block';
+    }
+  }
+
+
+
 // === CLOCK FUNCTIONALITY ===
 function updateClock() {
     const now = new Date();
