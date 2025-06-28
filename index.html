@@ -13,7 +13,7 @@
 
 <body>
 
-<!--LOGO-->
+    <!--LOGO-->
 
     <div class="logo-container">
         <a href="https://profile.caffeinecompiler.xyz" class="floating-logo">
@@ -23,15 +23,26 @@
     </div>
 
     <div class="dashboard-container">
-        <!-- CLOCK WHOLE -->
-        <div class="widget clock-widget">
-            <div class="clock-circle">
-                <div class="time-display">
-                    <span id="hours">12</span><span class="colon">:</span><span id="minutes">00</span>
+        <!-- Grouped Clock + Greeting -->
+        <div class="stacked-widgets">
+            <!-- CLOCK -->
+            <div class="widget clock-widget">
+                <div class="clock-circle">
+                    <div class="time-display">
+                        <span id="hours">12</span><span class="colon">:</span><span id="minutes">00</span>
+                    </div>
+                    <div class="ampm" id="ampm">PM</div>
                 </div>
-                <div class="ampm" id="ampm">PM</div>
+                <div class="date-display" id="date">Monday, June 23</div>
             </div>
-            <div class="date-display" id="date">Monday, June 23</div>
+
+            <!-- GREETING WIDGET -->
+            <div class="widget greeting-widget">
+                <h2 class="greeting-title">Hello, Farhan Akhther!</h2>
+                <p class="greeting-message">
+                    Welcome to your personal dashboard. Here you can find your daily tasks, weather updates, and more.
+                </p>
+            </div>
         </div>
 
 
