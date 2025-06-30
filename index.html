@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Landing Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- LOGO -->
+    <div class="logo-container">
+        <a href="https://profile.caffeinecompiler.xyz" class="floating-logo">
+            <img src="images/logo.png" alt="My Logo" />
+        </a>
+    </div>
+
+    <div class="dashboard-container">
+        <!-- Grouped Clock + Greeting -->
+        <div class="stacked-widgets">
+
+            <!-- CLOCK -->
+            <div class="widget clock-widget">
+                <div class="clock-circle">
+                    <div class="time-display">
+                        <span id="hours">12</span><span class="colon">:</span><span id="minutes">00</span>
+                    </div>
+                    <div class="ampm" id="ampm">PM</div>
+                </div>
+                <div class="date-display" id="date">Monday, June 23</div>
+            </div>
+            <!-- GREETING WIDGET -->
+            <div class="widget greeting-widget">
+                <h2 class="greeting-title">ADD ANYTHING HERE</h2>
+                <p class="greeting-message">
+                    add any thing here
+                </p>
+            </div>
+        </div>
+
+        <!-- Weather WHOLE -->
+        <div class="widget weather-widget">
+            <div class="weather-header">
+                <div>
+                    <div class="weather-icon" id="weather-icon">⛈️</div>
+                    <div class="weather-temp" id="weather-temp">28°C</div>
+                    <div class="weather-condition" id="weather-condition">Thunderstorm</div>
+                </div>
+                <div style="text-align: right;">
+                    <div style="font-size: 1rem; margin-bottom: 8px;">
+                        📍 <span id="weather-location">Dispur</span>
+                    </div>
+                </div>
+            </div>
+            <div class="weather-details">
+                <div class="weather-detail">
+                    <div>Feels like</div>
+                    <div><strong id="feels-like">31°C</strong></div>
+                </div>
+                <div class="weather-detail">
+                    <div>Humidity</div>
+                    <div><strong id="humidity">76%</strong></div>
+                </div>
+                <div class="weather-detail">
+                    <div>Min Temp</div>
+                    <div><strong id="min-temp">25.3°C</strong></div>
+                </div>
+                <div class="weather-detail">
+                    <div>Max Temp</div>
+                    <div><strong id="max-temp">33°C</strong></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sample txt -->
+        <div class="widget message-widget">
+            <h3>Daily Message</h3>
+            <div class="daily-message">
+                ADD SOMETHING HERE
+            </div>
+            <div class="quote">
+                "First, solve the problem. Then, write the code"
+                <div class="quote-author">— Muhammad Muneer</div>
+            </div>
+            <div class="quote">
+                "I am not great at anything but i can try to help with anything"
+                <div class="2nd quote-author">— Farhan Akhther</div>
+            </div>
+        </div>
+
+        <!-- MY Projects -->
+        <div class="widget projects-widget">
+            <h2 class="projects-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-name">Portfolio Website</div>
+                    <div class="project-description">
+                        Built with React & Tailwind CSS. Showcasing my development journey and creative projects with modern design.
+                    </div>
+                    <a href="https://inprogress.caffeinecompiler.xyz" class="visit-button">
+                        <span>Visit</span>
+                        <span>→</span>
+                    </a>
+                </div>
+                <div class="project-card">
+                    <div class="project-name">Weather Tracker</div>
+                    <div class="project-description">
+                        Real-time weather application using OpenWeatherMap API with beautiful UI and location-based forecasts.
+                    </div>
+                    <a href="https://inprogress.caffeinecompiler.xyz" class="visit-button">
+                        <span>Visit</span>
+                        <span>→</span>
+                    </a>
+                </div>
+                <div class="project-card">
+                    <div class="project-name">Task Manager</div>
+                    <div class="project-description">
+                        Full-stack productivity dashboard with task tracking, team collaboration, and progress analytics.
+                    </div>
+                    <a href="https://inprogress.caffeinecompiler.xyz" class="visit-button">
+                        <span>Visit</span>
+                        <span>→</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- copied -->
+    <div class="app-shortcuts">
+        <div class="app-icon whatsapp" title="WhatsApp">
+            <img src="images/whatsapp.png" alt="WhatsApp" />
+        </div>
+        <div class="app-icon email" title="Email">
+            <img src="images/Email.jpeg" alt="Email" />
+        </div>
+        <div class="app-icon github" title="GitHub">
+            <img src="images/github.png" alt="GitHub" />
+        </div>
+        <div class="app-icon discord" title="Discord">
+            <img src="images/discord.jpeg" alt="Discord" />
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
